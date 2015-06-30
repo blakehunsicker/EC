@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var parrafo_uno = $('div.sections div.container div.row:nth-of-type(5) div.span8 > p:nth-child(1)')
+	var parrafo_uno = $('div.sections div.container div.row:nth-of-type(5) div.span8 > p:nth-child(1)');
 	
 	var sugerencia = "Obama has since his first days in the White House seemed to be 
 	searching for an American exceptionalism that felt true to his life experience. 
@@ -7,7 +7,7 @@ $(document).ready(function() {
 	Brits think their countries are special, too.</span> Five years later, and a little 
 	grayer, Obama summed up his feelings on the subject differently. “I believe in 
 	American exceptionalism with every fiber of my being,” he told graduating cadets 
-	at the U.S. Military Academy."
+	at the U.S. Military Academy.";
 
 	parrafo_uno.innerHTML = sugerencia;
 
